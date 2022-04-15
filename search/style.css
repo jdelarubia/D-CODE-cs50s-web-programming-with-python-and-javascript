@@ -35,3 +35,18 @@ nav a:hover {
   color: grey;
   text-decoration: underline;
 }
+/* Logo */
+div.logo {
+  height: 20vh;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  margin: 2em 0;
+}
+div.logo h1 {
+  font-size: 4em;
+}
+div.logo h1:after {
+  font-size: 0.2em;
+  content: "clone";
+}
