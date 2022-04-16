@@ -63,6 +63,13 @@ nav a:hover {
   font-size: 0.2em;
   content: "clone";
 }
+.logo span {
+  color: blue;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 10em;
+  position: absolute;
+}
 /* Search */
 .search {
   display: grid;
