@@ -1,3 +1,10 @@
+:root {
+  --fg-color: black;
+  --fg-h1-color: darkgrey;
+  --bg-color: white;
+  --input-border-color: lightgrey;
+  --fg-a-color: grey;
+}
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +14,8 @@ body {
   display: grid;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Liberation Sans", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
 }
 /* Navigation */
 nav {
@@ -27,7 +36,7 @@ nav ul li {
   align-self: flex-end;
 }
 nav a {
-  color: grey;
+  color: var(--fg-a-color);
   font-size: 0.9em;
   text-decoration: none;
 }
@@ -43,7 +52,7 @@ div.logo {
   justify-items: center;
   margin: 2em 0;
 }
-div.logo h1 {
+  color: var(--fg-h1-color);
   font-size: 4em;
 }
 div.logo h1:after {
@@ -58,8 +67,7 @@ div.search {
   max-width: 600px;
   width: 80%;
 }
-div.search input[type="submit"] {
-  border: 1px solid darkgrey;
+  border: 1px solid var(--input-border-color);
   border-radius: 4px;
   font-size: 0.9em;
   margin-top: 1.8em;
@@ -69,6 +77,7 @@ div.search input[type="submit"] {
   width: auto;
 }
 .search-box {
+  border: 1px solid var(--input-border-color);
   display: grid;
   border: 1px solid grey;
   line-height: 1.8em;
