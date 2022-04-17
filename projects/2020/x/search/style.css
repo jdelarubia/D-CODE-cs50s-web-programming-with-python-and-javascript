@@ -18,6 +18,7 @@ body {
   display: grid;
   height: 100vh;
   align-content: flex-start;
+  margin: 0 1em;
 }
 /* Navigation */
 nav {
