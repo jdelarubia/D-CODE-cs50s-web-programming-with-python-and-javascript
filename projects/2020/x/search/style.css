@@ -50,6 +50,22 @@ nav a:hover {
   color: grey;
   text-decoration: underline;
 }
+nav.advanced {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.advanced h1 {
+  font-size: 1.4em;
+  justify-self: start;
+  width: 10em;
+}
+nav.advanced ul {
+  justify-self: end;
+  align-self: center;
+  width: auto;
+}
+
 /* Logo */
 .logo {
   align-items: flex-end;
