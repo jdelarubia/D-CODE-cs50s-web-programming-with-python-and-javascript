@@ -1,10 +1,17 @@
 :root {
   --fg-color: black;
   --fg-h1-color: darkgrey;
+  --fg-h2-color: darkgrey;
   --bg-color: white;
   --input-border-color: lightgrey;
   --fg-a-color: grey;
+  --google-red: #ea4335;
+  --google-green: #34a853;
+  --google-blue: #4285f4;
+  --google-blue-shade: rgb(68, 117, 197);
+  --google-yellow: #fbbc05;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -20,6 +27,7 @@ body {
   align-content: flex-start;
   margin: 0 1em;
 }
+
 /* Top Navigation */
 nav {
   align-content: center;
