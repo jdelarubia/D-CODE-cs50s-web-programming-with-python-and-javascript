@@ -75,11 +75,12 @@ nav.advanced ul {
   margin-bottom: 2em;
   width: 100%;
 }
-.logo h1 {
+h1 {
   color: var(--fg-h1-color);
+  font-family: system-ui;
   font-size: 4em;
 }
-.logo h1:after {
+h1:after {
   font-size: 0.2em;
   content: "clone";
 }
