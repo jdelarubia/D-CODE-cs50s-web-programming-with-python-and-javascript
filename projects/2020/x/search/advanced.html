@@ -19,17 +19,31 @@
       <h2>Advanced Search</h2>
     </section>
 
-    <form action="https://google.com/search">
-      <input type="text" name="q" />
-      <input type="text" name="as_q" placeholder="all of these words" />
-      <input
-        type="text"
-        name="as_epq"
-        placeholder="this exact word or phrase"
-      />
-      <input type="text" name="as_oq" placeholder="any of these words" />
-      <input type="text" name="as_eq" placeholder="none of these words" />
-      <input type="submit" value="Advanced Search" />
-    </form>
+    <main class="advanced-search">
+      <h2>Find pages with...</h2>
+      <form action="https://google.com/search">
+        <div>
+          <label for="as_q">all these words:</label>
+          <input type="text" name="as_q" />
+        </div>
+
+        <div>
+          <label for="as_epq">this exact word or phrase:</label>
+          <input type="text" name="as_epq" />
+        </div>
+
+        <div>
+          <label for="as_oq">any of these words:</label>
+          <input type="text" name="as_oq" />
+        </div>
+
+        <div>
+          <label for="as_eq">none of these words:</label>
+          <input type="text" name="as_eq" />
+        </div>
+
+        <input type="submit" value="Advanced Search" />
+      </form>
+    </main>
   </body>
 </html>
