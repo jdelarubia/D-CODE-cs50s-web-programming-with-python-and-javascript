@@ -20,7 +20,7 @@ body {
   align-content: flex-start;
   margin: 0 1em;
 }
-/* Navigation */
+/* Top Navigation */
 nav {
   align-content: center;
   display: grid;
@@ -35,8 +35,11 @@ nav ul {
   display: flex;
 }
 nav ul li {
-  margin-right: 1em;
+  margin: 0 1em;
   align-self: flex-end;
+}
+nav ul li:last-child {
+  margin-right: 0;
 }
 nav a {
   color: var(--fg-a-color);
